@@ -1,12 +1,5 @@
 @charset "UTF-8";
 /* setting */
-@-webkit-keyframes tone_duo-tone_01 {
-  0% {
-    background: -webkit-gradient(linear, left top, right top, from(#f8c76b), to(#e84ca3)); }
-  50% {
-    background: -webkit-gradient(linear, left top, right top, from(#f19681), to(#ee7d8c)); }
-  100% {
-    background: -webkit-gradient(linear, left top, right top, from(#e84ca3), to(#f8c76b)); } }
 @keyframes tone_duo-tone_01 {
   0% {
     background: -webkit-gradient(linear, left top, right top, from(#f8c76b), to(#e84ca3)); }
@@ -14,7 +7,6 @@
     background: -webkit-gradient(linear, left top, right top, from(#f19681), to(#ee7d8c)); }
   100% {
     background: -webkit-gradient(linear, left top, right top, from(#e84ca3), to(#f8c76b)); } }
-
 /* tool */
 /* base */
 html {
@@ -113,16 +105,13 @@ input, select {
   font-family: "Yu Gothic";
   src: local("Yu Gothic Medium");
   font-weight: normal; }
-
 @font-face {
   font-family: "Yu Gothic";
   src: local("Yu Gothic Bold");
   font-weight: bold; }
-
 @font-face {
   font-family: 'TeXGyreAdventor-Regular';
   src: url(../font/texgyreadventor-regular.otf); }
-
 .bx-wrapper {
   width: 100%;
   margin: 0 auto;
@@ -195,37 +184,33 @@ input, select {
 @media screen and (max-width: 375px) {
   .br__school-text-3 {
     display: inline; }
+
   .br__project-2 {
     display: inline; } }
-
 @media screen and (max-width: 400px) {
   .br__project-3 {
     display: inline; } }
-
 @media screen and (max-width: 425px) {
   .br__concept {
     display: inline; }
+
   .br__school-subtitle {
     display: inline; } }
-
 @media screen and (max-width: 450px) {
   .br__project-1 {
     display: inline; }
+
   .br__robot-1 {
     display: inline; } }
-
 @media screen and (max-width: 550px) {
   .br__school-text-2 {
     display: inline; } }
-
 @media screen and (max-width: 600px) {
   .br__school-text-1 {
     display: inline; } }
-
 @media screen and (max-width: 1024px) {
   .br__school-form-1 {
     display: none; } }
-
 /* block */
 .page {
   font-size: 16px;
@@ -283,29 +268,21 @@ input, select {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px 35px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
   /* Safari */
-  -ms-flex-align: center;
   align-items: center;
   -webkit-flex-direction: row;
   /* Safari */
-  -ms-flex-direction: row;
   flex-direction: row; }
 
 .navi__name-wrapper {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-start;
   /* Safari */
-  -ms-flex-align: start;
   align-items: flex-start;
   -webkit-flex-direction: column;
   /* Safari */
-  -ms-flex-direction: column;
   flex-direction: column; }
 
 .navi__logoImg {
@@ -319,16 +296,12 @@ input, select {
   margin-bottom: 0; }
 
 .navi__ul {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-start;
   /* Safari */
-  -ms-flex-align: start;
   align-items: flex-start;
   -webkit-flex-direction: row;
   /* Safari */
-  -ms-flex-direction: row;
   flex-direction: row; }
 
 .list {
@@ -362,15 +335,11 @@ input, select {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-align-items: center;
     /* Safari */
-    -ms-flex-align: center;
     align-items: center;
     -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -398,6 +367,14 @@ input, select {
     line-height: 70px;
     color: #FFF;
     text-align: center; }
+  .titleBox .titleBox__title_black {
+    font-family: "ヒラギノ角ゴシック", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo UI", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 70px;
+    color: #000;
+    text-align: center; }
 
 .imgBox {
   width: 100%; }
@@ -410,15 +387,11 @@ input, select {
   width: 100%;
   max-width: 900px;
   margin: 20px auto 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
   /* Safari */
-  -ms-flex-align: center;
   align-items: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center; }
 
 .textBox {
@@ -433,6 +406,46 @@ input, select {
     margin-bottom: 15px;
     color: #FFF;
     letter-spacing: 1px; }
+
+.customerVoice {
+  width: 800px;
+  margin: 0 auto;
+  height: 500px; }
+  .customerVoice .customerVoice__imgContainer {
+    width: 300px;
+    height: 480px;
+    background-color: #1f1f1f;
+    float: left; }
+  .customerVoice .customerVoice__customerStatus {
+    text-align: center;
+    color: #fff;
+    margin-top: 4px; }
+  .customerVoice .customerVoice__textContainer {
+    width: 500px;
+    height: 480px;
+    float: left; }
+  .customerVoice .customerVoice__titleText {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px 10px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    text-align: center; }
+  .customerVoice .customerVoice__reasonText {
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 14px;
+    line-height: 20px; }
+  .customerVoice .customerVoice__goodPointText {
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 14px;
+    line-height: 20px; }
+  .customerVoice .customerVoice__jobInfoText {
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding: 14px;
+    line-height: 20px; }
 
 .button {
   -webkit-flex: 1;
@@ -464,3 +477,5 @@ input, select {
 .footer {
   background: #fff;
   color: #000; }
+
+/*# sourceMappingURL=style.css.map */
