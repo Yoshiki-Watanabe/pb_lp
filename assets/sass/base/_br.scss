@@ -1,0 +1,89 @@
+
+.br__concept{
+	display: none;
+}
+
+
+.br__school-subtitle{
+	display: none;
+}
+
+.br__school-text-1{
+	display: none;
+}
+.br__school-text-2{
+	display: none;
+}
+.br__school-text-3{
+	display: none;
+}
+.br__school-form-1{
+	display: inline;
+}
+
+.br__project-1{
+	display: none;
+}
+.br__project-2{
+	display: none;
+}
+.br__project-3{
+	display: none;
+}
+
+
+.br__robot-1{
+	display: none;
+}
+
+@media screen and (max-width: 375px){
+	.br__school-text-3{
+		display: inline;
+	}
+	.br__project-2{
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.br__project-3{
+		display: inline;
+	}
+}
+@media screen and (max-width:425px){
+	.br__concept{
+		display: inline;
+	}
+	.br__school-subtitle{
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.br__project-1{
+		display: inline;
+	}
+	.br__robot-1{
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.br__school-text-2{
+		display: inline;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.br__school-text-1{
+		display: inline;
+	}
+
+}
+
+@media screen and (max-width: 1024px){
+	.br__school-form-1{
+		display: none;
+	}
+}
+

@@ -1,0 +1,91 @@
+.form-simple .form-simple__form-div {
+  margin-bottom: 90px; }
+
+.form-simple .form-simple__form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 14px;
+  -webkit-appearance: none; }
+
+.form-simple .form-simple__tr {
+  height: 60px; }
+
+.form-simple .form-simple__th {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2rem; }
+  @media screen and (max-width: 550px) {
+    .form-simple .form-simple__th {
+      font-size: 1.0rem; } }
+  @media screen and (max-width: 450px) {
+    .form-simple .form-simple__th {
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.4rem; } }
+  .form-simple .form-simple__th.js-form-simple__th_line-height_low {
+    line-height: 1.2rem; }
+
+.form-simple .form-simple__td {
+  width: 66%; }
+  @media screen and (max-width: 450px) {
+    .form-simple .form-simple__td {
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.4rem; } }
+
+.form-simple .form-simple__input {
+  padding: 10px;
+  margin: 0 auto;
+  -webkit-appearance: none;
+  width: 90%;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid black;
+  border-radius: 0;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none; }
+
+.form-simple .form-simple__table {
+  width: 650px;
+  margin: 0 auto;
+  line-height: 1.7; }
+  @media screen and (max-width: 1024px) {
+    .form-simple .form-simple__table {
+      width: 100%; } }
+
+.form-simple .form-simple__submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 7px 70px;
+  font-size: 1.2em;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .form-simple .form-simple__submit:hover {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    background-color: white; }
+
+.form-simple .form-simple__form-alert {
+  font-size: 1rem;
+  color: red; }
+  .form-simple .form-simple__form-alert.js-form-simple__form-alert_display_none {
+    display: none; }
+  .form-simple .form-simple__form-alert.js-form-simple__form-alert_display_inline {
+    display: inline; }

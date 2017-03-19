@@ -1,0 +1,21 @@
+.table-simple {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 6px;
+  overflow: hidden; }
+  .table-simple .table-simple__thead {
+    background: #4040f0;
+    color: #fff; }
+  .table-simple .table-simple__thead-tr {
+    padding: .6rem 3rem;
+    border-bottom: 1px solid #ddd; }
+  .table-simple .table-simple__thead-th {
+    padding: .6rem 3rem;
+    border-bottom: 1px solid #ddd; }
+  .table-simple .table-simple__tbody-th {
+    padding: .6rem 3rem;
+    border-bottom: 1px solid #ddd; }
+  .table-simple .table-simple__tbody-td {
+    padding: .6rem 3rem;
+    border-bottom: 1px solid #ddd; }

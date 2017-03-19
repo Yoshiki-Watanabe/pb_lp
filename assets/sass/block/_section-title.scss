@@ -1,0 +1,97 @@
+.section-title{
+
+	.section-title__title{
+
+		font-size: 1.8rem;
+		text-align: center;
+		
+		&.section-title__title_type_work{	
+		}
+
+		&.section-title__title_type_gallery{		
+    		margin: 120px 0 0;
+		}
+
+		&.section-title__title_type_company{		
+    		margin: 150px 0 0;
+		}
+
+		&.section-title__title_type_contact{		
+    		margin: 150px 0 0;
+		}
+
+		&.section-title__title_type_second-generation{		
+    		margin: 90px 0 0;
+    		color: #000;
+		}
+
+		&.section-title__title_type_information{
+    		margin: 200px 0 0;
+    		color: #000;
+		}
+
+		&.section-title__title_fontsize_small{
+
+			@media screen and (max-width:375px){
+				font-size: 1.58rem;
+			}
+			
+		}	
+
+
+		@media screen and (max-width:600px){
+			&.section-title__title_type_work{
+			}
+		}
+		@media screen and (max-width:1024px){
+			&.section-title__title_type_company{
+			    margin: 200px 0 0px;
+			}
+			&.section-title__title_type_second-generation{		
+	    		margin: 90px 0 0;
+			}
+		}
+
+		@media screen and (max-width:500px){
+			&.section-title__title_type_company{
+			    margin: 150px 0 0px;
+			}
+		}
+
+
+
+
+	}
+	.section-title__border{
+		border-top: 1px solid;
+	    text-align: center;
+	    margin: 7px auto 40px;
+	    
+	    &.section-title__border_type_work{
+    		width: 166px;
+		}
+
+		&.section-title__border_type_gallery{
+			width: 201px;
+		}
+
+		&.section-title__border_type_company{
+			width: 201px;
+		}
+
+		&.section-title__border_type_contact{
+			width: 201px;
+		}
+
+		&.section-title__border_type_second-generation{
+			border-top: rgba(255,255,255,0.4) 1px solid;
+		}
+
+		&.section-title__border_type_information{
+			border-top: rgba(0,0,0,1) 1px solid;
+			width: 261px;
+		}
+	}
+
+
+}

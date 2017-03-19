@@ -1,0 +1,115 @@
+.cite-text {
+  padding-top: 100px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem; }
+  @media screen and (max-width: 1100px) {
+    .cite-text {
+      padding-top: 100px;
+      width: 100%;
+      font-size: 1.7rem; } }
+  @media screen and (max-width: 768px) {
+    .cite-text {
+      width: 90%;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      letter-spacing: 0.4rem;
+      text-indent: 0.4rem; } }
+  @media screen and (max-width: 600px) {
+    .cite-text {
+      font-size: 1.3rem;
+      letter-spacing: 0.2rem;
+      text-indent: 0.2rem; } }
+  @media screen and (max-width: 550px) {
+    .cite-text {
+      font-size: 1.2rem;
+      letter-spacing: 0.05rem;
+      text-indent: 0.05rem; } }
+  @media screen and (max-width: 450px) {
+    .cite-text {
+      font-size: 1.0rem; } }
+  @media screen and (max-width: 400px) {
+    .cite-text {
+      font-size: 0.9rem;
+      letter-spacing: 0.02rem;
+      text-indent: 0.02rem;
+      font-weight: bold; } }
+  @media screen and (max-width: 375px) {
+    .cite-text {
+      font-size: 0.90rem;
+      letter-spacing: 0.02rem;
+      text-indent: 0.02rem;
+      font-weight: bold; } }
+  @media screen and (max-width: 320px) {
+    .cite-text {
+      font-size: 0.83rem;
+      letter-spacing: 0.01rem;
+      text-indent: 0.01rem; } }
+  .cite-text .cite-text__first {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+      .cite-text .cite-text__first {
+        width: 90%; } }
+  .cite-text .cite-text__second {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    margin: 10px 0 0 auto;
+    text-align: right; }
+    @media screen and (max-width: 768px) {
+      .cite-text .cite-text__second {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: 0; } }
+  .cite-text .cite-text__name {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    margin: 30px 0 0 auto;
+    text-align: right; }
+    @media screen and (max-width: 1100px) {
+      .cite-text .cite-text__name {
+        font-size: 1.3rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 768px) {
+      .cite-text .cite-text__name {
+        margin-top: 30px;
+        width: 80%;
+        right: 0;
+        font-size: 1.3rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 600px) {
+      .cite-text .cite-text__name {
+        font-size: 1.0rem;
+        line-height: 1.7rem; } }
+    @media screen and (max-width: 550px) {
+      .cite-text .cite-text__name {
+        font-size: 1.1rem;
+        letter-spacing: 0.05rem;
+        text-indent: 0.05rem; } }
+    @media screen and (max-width: 450px) {
+      .cite-text .cite-text__name {
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        text-indent: 0.1rem; } }
+    @media screen and (max-width: 450px) {
+      .cite-text .cite-text__name {
+        font-size: 0.7rem;
+        letter-spacing: 0.02rem;
+        text-indent: 0.02rem; } }
+    @media screen and (max-width: 375px) {
+      .cite-text .cite-text__name {
+        font-size: 0.8rem;
+        letter-spacing: 0.02rem;
+        text-indent: 0.02rem; } }
+    @media screen and (max-width: 320px) {
+      .cite-text .cite-text__name {
+        font-size: 0.75rem; } }

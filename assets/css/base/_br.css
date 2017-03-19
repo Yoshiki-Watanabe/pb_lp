@@ -1,0 +1,6 @@
+br.concept__new-line {
+  display: none; }
+
+@media screen and (max-width: 425px) {
+  br.concept__new-line {
+    display: inline; } }

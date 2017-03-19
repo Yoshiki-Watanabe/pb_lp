@@ -1,0 +1,10 @@
+.testblock{
+	width: 300px;
+	height: 350px;
+	background: #222;
+	
+	&.testblock__item{
+		background: $color-sub1;		
+	}
+	
+}

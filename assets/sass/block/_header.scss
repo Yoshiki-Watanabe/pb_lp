@@ -1,0 +1,34 @@
+/* NAVI MENU */
+
+
+
+
+.header{
+	text-align: center;
+	max-width: 1152px;
+	height: 110px;
+	background-color: #FFF;
+	margin: 0 auto;	
+	
+	.header__link{
+		display: inline-block;
+		&.js-header__link_display_none{
+			display: none;
+		}
+	}
+	
+	.header__logo-img{
+		max-height: 110px;
+		margin : 0 auto;
+		display: block;
+		height: 110px;
+	}
+
+	.header__logo-div{	
+		margin:0 auto;
+	}
+
+
+}
+
+

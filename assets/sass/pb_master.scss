@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* setting */
+@import "setting/_color.scss";
+@import "setting/_base-size.scss";
+@import "setting/_keyframes.scss";
+
+/* tool */
+@import "tool/_mixin.scss";
+
+
+/* base */
+@import "base/_base.scss";
+@import "base/_html5reset.scss";
+@import "base/_font.scss";
+@import "base/_library.scss";
+@import "base/_br.scss";
+
+/* block */
+@import "block/_page.scss";
+@import "block/_top-slider.scss";
+@import "block/_footer.scss";
+@import "block/projectbase_temp_style.scss";
+

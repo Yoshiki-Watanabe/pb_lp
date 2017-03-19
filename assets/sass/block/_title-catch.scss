@@ -1,0 +1,40 @@
+.title-catch{
+	width: 100%;
+	position: relative;
+
+	.title-catch__img{
+		width: 100%;
+		opacity: 0.8;
+	}
+
+	.title-catch__box{
+		width: 40%;
+		height: 100px;
+		color: #fff;
+		background: rgba(0, 0, 0, 0.2);
+		padding: 100px 0px;
+		border: 5px solid #fff;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		text-align: center;
+		font-weight: normal;
+	}
+
+	.title-catch__h1{
+		font-size: 2.4rem;
+		display: block;
+	}
+
+	.title-catch__h2{
+		font-size: 1.8rem;
+		margin-top: 20px;
+		display: block;
+	}
+
+
+
+}

@@ -1,0 +1,23 @@
+.contents{
+	background-image: url(../image/background_2.jpg);
+
+		-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+			padding-bottom: 100px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+			
+	&.contents_type_project{
+		background-image: url(../image/yellow2.jpg);
+	}
+	&.contents_type_form{
+		padding-bottom: 0;
+	}
+}
+
+
+
+
+

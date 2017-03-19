@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold;
+}
+@font-face {
+	font-family: 'TeXGyreAdventor-Regular'; 
+	src: url(../font/texgyreadventor-regular.otf); // css出力後のファイルからの相対パス
+}

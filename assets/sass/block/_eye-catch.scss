@@ -1,0 +1,129 @@
+.eye-catch{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	
+	&.eye-catch_type_project{
+		background-color: #ffdf2d;
+	}
+	&.eye-catch_type_school{
+	    background: rgba(108, 35, 24, 0.7);
+	}
+
+	.eye-catch__img{
+		width: 100%;
+		opacity: 0.8;
+		
+		@media screen and (max-width: 640px){
+			width: $base-img-size;
+		    overflow: hidden;
+		    position: relative;
+		    // leftをjsで操作します
+		}
+	}
+
+
+
+	.eye-catch__text{
+		width: 40%;
+		height: 100px;
+		color: #fff;
+		background: rgba(0, 0, 0, 0.2);
+		padding: 100px 0px;
+		border: 5px solid #fff;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		text-align: center;
+		
+		@media screen and (max-width: 768px){
+			width: 60%;
+		}
+
+		@media screen and (max-width: 640px){
+			width: 60%;
+			padding: 50px 0px;
+			// margin-topをjsで操作します
+		}
+		@media screen and (max-width: 600px){
+			width: 80%;
+		}
+		
+		@media screen and (max-width: 425px){
+			padding: 30px 10px;
+			height: 120px;
+		}
+
+		@media screen and (max-width: 375px){
+			width: 80%;
+			padding: 30px 10px;
+		}
+
+		&.eye-catch__text_type_contact{
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		    justify-content: center;
+		    -webkit-align-items: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+        }
+
+        &.eye-catch__text_only_title{
+        	display: flex;
+		    justify-content: center;
+		    align-items: center;
+        }
+
+
+	}
+
+	.eye-catch__title{
+		font-size: 2.4rem;
+		display: block;
+		font-weight: normal;
+		
+		&.eye-catch__title_type_project{
+			@media screen and (max-width: 375px){
+				font-size: 2.2rem;
+			}
+		}
+
+	}
+
+	.eye-catch__subtitle{
+		font-size: 1.8rem;
+		margin-top: 20px;
+		display: block;
+		font-weight: normal;
+		
+		@media screen and (max-width: 700px){
+			font-size: 1.4rem;
+		}
+
+		@media screen and (max-width: 600px){
+			font-size: 1.3rem;
+			margin-top: 20px;
+			color: #fff;
+			display: block;
+			text-align: center;
+			font-weight: normal;
+		}
+		@media screen and (max-width: 425px){
+			font-size: 1.05rem;
+		}
+
+		&.eye-catch__subtitle_type_project{
+			
+		}
+
+	}
+
+
+}
+

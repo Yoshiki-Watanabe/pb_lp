@@ -1,0 +1,88 @@
+
+
+.navi{
+    display: block;
+    width: 100%;
+    z-index: 52; /* bx-slider の画像がz-index:50, 51のため */
+    height: 80px;
+    line-height: 80px;
+    @include transition-sec(0.6s);
+    @media screen and (max-width:500px){
+        width: 100%;
+    }
+
+    @media screen and (max-width:768px){
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .navi__nav{
+        width: 60%; 
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        @media screen and (max-width:768px){
+            width: 90%;
+        }
+    }
+
+
+    // &.js-navi__display_image{
+    //     position: relative;
+    // }
+
+    // &.js-navi__display_text{
+    //     top: 0%;
+    //     opacity: 1;
+    //     position: fixed;
+    //     background: rgba(255,255,255,0.9);   
+    //     height: 60px;
+    //     line-height: 60px;
+    // }
+
+
+
+
+    &.js-navi__display_disappear{
+        top: -100px;
+        opacity: 0;
+        position: fixed;
+    }
+
+    &.js-navi__display_appear{
+        top: 0%;
+        opacity: 1;
+        position: fixed;
+        background: rgba(255,255,255,0.9);
+    }
+    
+    &.navi__display_top{
+        background: rgba(255,255,255,0.9);
+        height: 110px;
+        line-height: 110px;
+        @media screen and (max-width:640px){
+            display: none;
+        }
+       .navi__nav{
+            width: 70%;
+            @media screen and (max-width:1200px){
+                width: 80%;
+            }
+       }
+    }
+
+
+
+    .navi__ul{    
+        width: 100%;
+        margin-left: auto;  
+        display: -webkit-flex; /* Safari */
+                display: flex;
+        -webkit-flex-wrap: wrap; /* Safari */
+                flex-wrap: wrap;
+        -webkit-flex-direction: row; /* Safari */
+                flex-direction: row;
+    }
+
+}
+

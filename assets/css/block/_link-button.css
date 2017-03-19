@@ -1,0 +1,9 @@
+.link-button {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  max-width: 400px;
+  margin: 25px auto 0; }
+  .link-button.link-button_color_blue {
+    background: #44f;
+    color: #fff; }

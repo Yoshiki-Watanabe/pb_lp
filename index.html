@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="shortcut icon" href="assets/image/logo_favi.gif">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link type="text/css" href="assets/css/lightbox.css" rel="stylesheet" media="all">
+    <link type="text/css" href="assets/css/style.css" rel="stylesheet" media="all">
+  <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/jquery.bxSlider.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.inview.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.top-slider__slider').bxSlider({
+            auto: true,
+            pause:  4000,
+            speed: 800,
+            mode: 'horizontal'
+            });
+        });
+    </script>
+    <title>桜井たかし</title>
+</head>
+<body class="page">
+    <!-- HEADER -->
+
+    <header class="header-navi">
+        <div class="navi navi__display_top">
+            <div class="navi__name-box">
+                <div class="navi__name-wrapper">
+                    <p class="navi__job-title">千葉市議会無所属の会</p>
+                    <p class="navi__name">桜井 たかし</p>
+                </div>
+            </div>
+
+            <nav class="navi__nav">
+                <ul class="navi__ul">
+                    <a href="school.html" class="list"><li class="list__li js-list__currentItem">ホーム</li></a>
+                    <a href="camp.html" class="list"><li class="list__li">プロフィール
+                    </li></a>
+                    <a href="camp.html" class="list"><li class="list__li">日々の活動</li></a>
+                    <a href="project.html" class="list"><li class="list__li">政策</li></a>
+                    <a href="contact.html" class="list"><li class="list__li">コンタクト</li></a>
+                </ul>   
+                <span id="js-navi__slideLine"></span>
+            </nav>      
+        </div> 
+    </header>
+
+    <!-- END HEADER -->
+    
+
+
+
+
+
+    <!-- SLIDER -->
+    <div id="top-slider" class="js-fade_on">
+        <ul class="top-slider__slider">
+            <li><img src="mock_gray2_1500x500.png"/></li>
+            <li><img src="mock_gray2_1500x500.png"/></li>
+        </ul>
+    </div>
+    <!-- END SLIDER -->
+    
+    <div class="iconBox">
+        <img class="iconBox__icon" src="twitter_icon.png" alt="">
+        <img class="iconBox__icon" src="fb_icon.png" alt="">
+    </div>
+
+
+    <!-- CONTENTS -->
+
+    <div class="contents">
+
+        <div class="mini-section">
+            <h1 class="mini-section__title"><i class="fa fa-chevron-circle-right mini-section__iconSmall" aria-hidden="true"></i><span class="mini-section__marginLeft">メディア</span></h1>
+            <div class="mini-section__wrapper mini-section__wrapper__type_media">
+                <h2 class="mini-section__subTitle">桜井たかし 2期目に向けたメッセージ</h2>
+                <iframe src="https://www.youtube.com/embed/0KVu_Y-3YaY?showinfo=0"  width="448" height="252" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="mini-section">
+            <h1 class="mini-section__title"><i class="fa fa-chevron-circle-right mini-section__iconSmall" aria-hidden="true"></i><span class="mini-section__marginLeft">Blog</span></h1>
+            <div class="mini-section__wrapper mini-section__wrapper__type_blog">
+                <div class="mini-section__blog">
+                    <h2 class="mini-section__subTitle">桜井たかしの最新記事</h2>
+                    <div class="mini-section__blogBox">
+                        <span class="mini-section__blogDate">2017/02/23</span>
+                        <h3 class="mini-section__blogTitle">花見川不法占有調査チーム、5回目はドローンを投入。</h3>
+                        <span class="mini-section__blogDate">2017/02/22</span>
+                        <h3 class="mini-section__blogTitle">４階からコンクリート塊が落下した（字幕付き。５分５０秒に編集済み）</h3>
+                        <span class="mini-section__blogDate">2017/02/14</span>
+                        <h3 class="mini-section__blogTitle">幕張新都心の新駅構想への疑念　第2弾！（字幕貼り・編集済み）</h3>
+                        <span class="mini-section__blogDate">2017/02/13</span>
+                        <h3 class="mini-section__blogTitle">議員の姿勢を示すこと</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mini-section">
+            <h1 class="mini-section__title"><i class="fa fa-chevron-circle-right mini-section__iconSmall" aria-hidden="true"></i><span class="mini-section__marginLeft">Twitter</span></h1>
+                <a class="twitter-timeline" data-chrome="noheader nofooter" data-lang="ja" data-width="448" data-height="347" href="https://twitter.com/sakuraitakashic">Twzeets by sakuraitakashic</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+    </div>
+    <!-- END CONTENTS WRAPPER -->
+
+
+    <footer>
+        <nav class="footer">
+            <div>
+            <p class="footer__info-p">Copyright (c) 2017 Takashi Sakurai. All Right Reserved.</p>
+            </div>
+        </nav>
+    </footer>
+    
+    <script src="assets/js/lightbox.js"></script>
+    <script>
+    $(function() {
+        $('.js-move-fade_on').on('inview', function(event, isInView, visiblePartX, visiblePartY)  {
+            if(isInView){
+                $(this).stop().addClass('js-move-fade_off');
+            }
+
+        });
+    });
+    </script>
+
+    <script>
+    $(function() {
+        $('.js-fade_on').on('inview', function(event, isInView, visiblePartX, visiblePartY)  {
+            if(isInView){
+                $(this).stop().addClass('js-fade_off');
+            }
+
+        });
+    });
+    </script>
+
+    <script>
+        //ver1.1
+        var $nav_bar = $('#js-navi');
+        var sleep = setInterval(function() {
+                if ($(window).scrollTop() > 110) { 
+                    nav_outScroll();
+
+                }else if($(window).scrollTop() <= 110){
+                    nav_inScroll();
+
+                }
+        },150);
+    </script>
+    <script>
+        function nav_inScroll(){
+                    $nav_bar.addClass('js-navi__display_disappear');
+                    $nav_bar.removeClass('js-navi__display_appear');
+        }
+
+        function nav_outScroll(){
+                    $nav_bar.addClass('js-navi__display_appear');
+                    $nav_bar.removeClass('js-navi__display_disappear');
+        }
+
+    </script>
+
+<!-- for saku -->
+<!-- 下に線をつけたいとき -->
+<!--     <script>
+        currentItem = $(".js-list__currentItem");
+        if (currentItem[0]) {
+          currentItem.css({
+            "width": currentItem.width(),
+            "left": currentItem.position().left
+          });
+            $("#js-navi__slideLine").css({
+              "width": currentItem.width(),
+              "left": currentItem.position().left
+            });
+        }
+    </script>
+    <script>
+        $(".navi__nav .list__li").hover(
+          // ホバー時
+          function(){ 
+            // ホバーしているメニューの幅と左位置に変更
+            $("#js-navi__slideLine").css({
+              "width": $(this).width(),
+              "left": $(this).position().left
+            });
+          },
+          // ホバーが外れたとき
+          function(){
+            // カレントメニューがある場合
+            if (currentItem[0]) {
+              // カレントメニューに下線を戻す
+              $("#js-navi__slideLine").css({
+                "width": currentItem.width(),
+                "left": currentItem.position().left
+              });
+            }
+            // カレントメニューがない場合
+            else {
+              // 下線を消す
+              $("#js-navi__slideLine").width(0);
+            }
+          }
+         );
+    </script> -->
+
+</body>
+
+</html>

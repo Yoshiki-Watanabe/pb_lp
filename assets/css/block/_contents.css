@@ -1,0 +1,10 @@
+.contents {
+  background-image: url(assets/image/background_2.jpg);
+  /* background 1/2  */
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  padding-bottom: 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }

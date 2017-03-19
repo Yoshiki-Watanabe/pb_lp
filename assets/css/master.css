@@ -1,0 +1,2227 @@
+@charset "UTF-8";
+/* setting */
+@keyframes tone_duo-tone_01 {
+  0% {
+    background: -webkit-gradient(linear, left top, right top, from(#f8c76b), to(#e84ca3)); }
+  50% {
+    background: -webkit-gradient(linear, left top, right top, from(#f19681), to(#ee7d8c)); }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, from(#e84ca3), to(#f8c76b)); } }
+/* tool */
+/* base */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_base\.scss}line{font-family:\000031}}
+html {
+  font-size: 16px;
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif; }
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\000039}}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000330}}
+body {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000334}}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000339}}
+nav ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000343}}
+blockquote, q {
+  quotes: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000347}}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000353}}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000362}}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000369}}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000376}}
+del {
+  text-decoration: line-through; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000380}}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000385}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\0000391}}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_html5reset\.scss}line{font-family:\00003100}}
+input, select {
+  vertical-align: middle; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: normal; }
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold; }
+@font-face {
+  font-family: 'TeXGyreAdventor-Regular';
+  src: url(../font/texgyreadventor-regular.otf); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\000032}}
+.bx-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\000037}}
+.bx-wrapper .bx-pager {
+  text-align: center;
+  margin-top: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000311}}
+.bx-wrapper .bx-pager .bx-pager-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000316}}
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  z-index: 9999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000320}}
+.bx-prev {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000323}}
+.bx-wrapper .bx-next {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000327}}
+.bx-viewport img {
+  width: 100%;
+  opacity: 1; }
+
+/* bx-control */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000335}}
+.bx-pager a {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000338}}
+.bx-pager {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_library\.scss}line{font-family:\0000341}}
+.bx-pager a:hover,
+.bx-pager a.active {
+  background: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\000032}}
+.br__concept {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\000037}}
+.br__school-subtitle {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000311}}
+.br__school-text-1 {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000314}}
+.br__school-text-2 {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000317}}
+.br__school-text-3 {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000320}}
+.br__school-form-1 {
+  display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000324}}
+.br__project-1 {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000327}}
+.br__project-2 {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000330}}
+.br__project-3 {
+  display: none; }
+
+@media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000336}}
+  .br__school-text-3 {
+    display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000339}}
+  .br__project-2 {
+    display: inline; } }
+@media screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000345}}
+  .br__project-3 {
+    display: inline; } }
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000350}}
+  .br__concept {
+    display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000353}}
+  .br__school-subtitle {
+    display: inline; } }
+@media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000359}}
+  .br__project-1 {
+    display: inline; } }
+@media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000365}}
+  .br__school-text-2 {
+    display: inline; } }
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000371}}
+  .br__school-text-1 {
+    display: inline; } }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/base\/_br\.scss}line{font-family:\0000378}}
+  .br__school-form-1 {
+    display: none; } }
+/* block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_page\.scss}line{font-family:\000031}}
+.page {
+  font-size: 16px;
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif; }
+
+/* NAVI MENU */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_header\.scss}line{font-family:\000036}}
+.header {
+  text-align: center;
+  max-width: 1152px;
+  height: 110px;
+  background-color: #FFF;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_header\.scss}line{font-family:\0000313}}
+  .header .header__link {
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_header\.scss}line{font-family:\0000315}}
+    .header .header__link.js-header__link_display_none {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_header\.scss}line{font-family:\0000320}}
+  .header .header__logo-img {
+    max-height: 110px;
+    margin: 0 auto;
+    display: block;
+    height: 110px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_header\.scss}line{font-family:\0000327}}
+  .header .header__logo-div {
+    margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\000033}}
+.navi {
+  display: block;
+  width: 100%;
+  z-index: 52;
+  /* bx-slider の画像がz-index:50, 51のため */
+  height: 80px;
+  line-height: 80px;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease; }
+  @media screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\000033}}
+    .navi {
+      width: 100%; } }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\000033}}
+    .navi {
+      height: 60px;
+      line-height: 60px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000319}}
+  .navi .navi__nav {
+    width: 60%;
+    margin: 0 auto;
+    left: 0;
+    right: 0; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000319}}
+      .navi .navi__nav {
+        width: 90%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000346}}
+  .navi.js-navi__display_disappear {
+    top: -100px;
+    opacity: 0;
+    position: fixed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000352}}
+  .navi.js-navi__display_appear {
+    top: 0%;
+    opacity: 1;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.9); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000359}}
+  .navi.navi__display_top {
+    background: rgba(255, 255, 255, 0.9);
+    height: 110px;
+    line-height: 110px; }
+    @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000359}}
+      .navi.navi__display_top {
+        display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000366}}
+    .navi.navi__display_top .navi__nav {
+      width: 70%; }
+      @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000366}}
+        .navi.navi__display_top .navi__nav {
+          width: 80%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_navi\.scss}line{font-family:\0000376}}
+  .navi .navi__ul {
+    width: 100%;
+    margin-left: auto;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* Safari */
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    /* Safari */
+    flex-direction: row; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\000031}}
+.list {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  flex: 1;
+  text-align: center;
+  font-size: 1.2rem;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease; }
+  @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\000031}}
+    .list {
+      font-size: 1.0rem; } }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\000031}}
+    .list {
+      font-size: 0.9rem; } }
+  @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\000031}}
+    .list {
+      font-size: 0.8rem; } }
+  @media screen and (max-width: 360px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\000031}}
+    .list {
+      font-size: 0.7rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\0000333}}
+  .list.js-list_include_img {
+    flex: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\0000337}}
+  .list:hover {
+    text-decoration: underline;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\0000347}}
+  .list .list__li {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\0000357}}
+  .list .list__img {
+    height: 110px; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\0000357}}
+      .list .list__img {
+        height: 80px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_list\.scss}line{font-family:\0000362}}
+    .list .list__img .js-list__img_display_none {
+      display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_top-slider\.scss}line{font-family:\000031}}
+.top-slider {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  /*background-image: url(../image/background_2.jpg);/* background 2/2 */
+  background: #FFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contents\.scss}line{font-family:\000031}}
+.contents {
+  background-image: url(../image/background_2.jpg);
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  padding-bottom: 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contents\.scss}line{font-family:\0000312}}
+  .contents.contents_type_project {
+    background-image: url(../image/yellow2.jpg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contents\.scss}line{font-family:\0000315}}
+  .contents.contents_type_form {
+    padding-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_arrow-bottom\.scss}line{font-family:\000032}}
+.arrow-bottom {
+  padding-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_arrow-bottom\.scss}line{font-family:\000036}}
+  .arrow-bottom .arrow-bottom__img {
+    display: block;
+    margin: 0 auto;
+    height: 110px; }
+
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_arrow-bottom\.scss}line{font-family:\0000314}}
+  .arrow-bottom {
+    padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_arrow-bottom\.scss}line{font-family:\0000316}}
+    .arrow-bottom .arrow-bottom__img {
+      height: 50px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\000031}}
+.concept {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\000038}}
+  .concept.concept_type_project {
+    background: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000312}}
+  .concept .concept__message-h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 0.3rem;
+    text-indent: 0.3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000321}}
+  .concept .concept__message-p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-indent: 0.1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000329}}
+    .concept .concept__message-p.concept__message-p_letter-spacing_wide {
+      font-size: 1.3rem;
+      line-height: 2.3rem;
+      letter-spacing: 0.3rem;
+      text-indent: 0.3rem;
+      margin-top: 0; }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000329}}
+        .concept .concept__message-p.concept__message-p_letter-spacing_wide {
+          letter-spacing: 0rem;
+          text-indent: 0rem;
+          display: block;
+          margin: 0 auto; } }
+      @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000329}}
+        .concept .concept__message-p.concept__message-p_letter-spacing_wide {
+          font-size: 1.05rem;
+          width: 95%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000347}}
+  .concept .concept__rocket-red {
+    width: 15%;
+    position: absolute;
+    left: 90px;
+    top: 260px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000353}}
+  .concept .concept__moon {
+    width: 14%;
+    position: absolute;
+    right: 90px;
+    top: 270px; }
+
+@media screen and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000370}}
+  .concept .concept__rocket-red {
+    left: -20px;
+    top: 330px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000374}}
+  .concept .concept__moon {
+    right: -20px;
+    top: 340px; } }
+@media screen and (max-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000383}}
+  .concept .concept__rocket-red {
+    left: -20px;
+    top: 390px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000387}}
+  .concept .concept__moon {
+    right: -20px;
+    top: 400px; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\0000397}}
+  .concept .concept__message-h1 {
+    letter-spacing: 0rem;
+    text-indent: 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003102}}
+  .concept .concept__message-p {
+    letter-spacing: 0rem;
+    text-indent: 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003106}}
+  .concept .concept__rocket-red {
+    width: 16%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003109}}
+  .concept .concept__moon {
+    width: 15%;
+    right: -5px; } }
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003118}}
+  .concept .concept__moon {
+    top: 390px; } }
+@media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003126}}
+  .concept .concept__rocket-red {
+    top: 430px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003129}}
+  .concept .concept__moon {
+    top: 430px; } }
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003137}}
+  .concept .concept__rocket-red {
+    top: 450px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003140}}
+  .concept .concept__moon {
+    top: 450px; } }
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003147}}
+  .concept {
+    width: 90%;
+    padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003150}}
+    .concept .concept__message-h1 {
+      font-size: 1.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003153}}
+    .concept .concept__message-p {
+      font-size: 1.1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003156}}
+    .concept .concept__rocket-red {
+      left: 0px;
+      top: 440px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003160}}
+    .concept .concept__moon {
+      right: -10px;
+      top: 440px; } }
+@media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003170}}
+  .concept .concept__message-h1 {
+    font-size: 1.3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_concept\.scss}line{font-family:\00003173}}
+  .concept .concept__moon {
+    top: 440px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\000031}}
+.work {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\000037}}
+  .work .work__all-contents {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* Safari */
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    /* Safari */
+    flex-direction: row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\0000316}}
+  .work .work__title-border {
+    border-top: 1px solid;
+    width: 166px;
+    text-align: center;
+    margin: 7px auto 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\0000323}}
+  .work .work__title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 300px 0 0px; }
+
+@media screen and (max-width: 1300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\0000336}}
+  .work .work_title {
+    margin: 200px 0 0px; } }
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\0000344}}
+  .work {
+    width: 90%; } }
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\0000351}}
+  .work {
+    margin-top: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_work\.scss}line{font-family:\0000353}}
+    .work .work__title {
+      margin: 150px 0 0px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\000031}}
+.course {
+  width: 33.3%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\000034}}
+  .course .course__wrap {
+    margin: 0 10px 10px;
+    padding: 20px 5px;
+    height: 580px;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000311}}
+  .course .course__img {
+    width: 80%;
+    display: block;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000317}}
+  .course .course__text {
+    text-align: center;
+    padding: 40px 0 0;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000323}}
+  .course .course__text-title {
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    line-height: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000329}}
+  .course .course__text-sub {
+    font-size: 0.9rem;
+    margin-bottom: 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000334}}
+  .course .course__text-p {
+    font-size: 1.1rem;
+    margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000339}}
+  .course .course__link {
+    text-decoration: none;
+    color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000344}}
+  .course .course__link-div {
+    position: absolute;
+    width: 60%;
+    font-size: 1.2rem;
+    border: 1px solid #777;
+    opacity: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+    box-shadow: 4px 4px 10px 0 #666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000368}}
+  .course .course__link-div:hover {
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000377}}
+  .course .course__wrap_school {
+    background: #ffeee0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000380}}
+  .course .course__wrap_camp {
+    background: #d0ffd0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000383}}
+  .course .course__wrap_project {
+    background: #bef0f2; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000391}}
+  .course {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000393}}
+    .course .course__img {
+      width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\0000396}}
+    .course .course__wrap {
+      height: 610px; } }
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\00003104}}
+  .course .course__wrap {
+    height: 480px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_course\.scss}line{font-family:\00003107}}
+  .course .course__link-div {
+    width: 70%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\000033}}
+.section-title .section-title__title {
+  font-size: 1.8rem;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000311}}
+  .section-title .section-title__title.section-title__title_type_gallery {
+    margin: 120px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000315}}
+  .section-title .section-title__title.section-title__title_type_company {
+    margin: 150px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000319}}
+  .section-title .section-title__title.section-title__title_type_contact {
+    margin: 150px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000323}}
+  .section-title .section-title__title.section-title__title_type_second-generation {
+    margin: 90px 0 0;
+    color: #000; }
+  @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000328}}
+    .section-title .section-title__title.section-title__title_fontsize_small {
+      font-size: 1.58rem; } }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000342}}
+    .section-title .section-title__title.section-title__title_type_company {
+      margin: 200px 0 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000345}}
+    .section-title .section-title__title.section-title__title_type_second-generation {
+      margin: 90px 0 0; } }
+  @media screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000351}}
+    .section-title .section-title__title.section-title__title_type_company {
+      margin: 150px 0 0px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000360}}
+.section-title .section-title__border {
+  border-top: 1px solid;
+  text-align: center;
+  margin: 7px auto 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000365}}
+  .section-title .section-title__border.section-title__border_type_work {
+    width: 166px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000369}}
+  .section-title .section-title__border.section-title__border_type_gallery {
+    width: 201px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000373}}
+  .section-title .section-title__border.section-title__border_type_company {
+    width: 201px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000377}}
+  .section-title .section-title__border.section-title__border_type_contact {
+    width: 201px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_section-title\.scss}line{font-family:\0000381}}
+  .section-title .section-title__border.section-title__border_type_second-generation {
+    border-top: rgba(255, 255, 255, 0.4) 1px solid; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_gallery\.scss}line{font-family:\000034}}
+.gallery .gallery__box {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  /* Safari */
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  /* Safari */
+  flex-direction: row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_gallery\.scss}line{font-family:\0000315}}
+.gallery .gallery__image-box {
+  width: 33.3%;
+  padding: 1px;
+  opacity: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_gallery\.scss}line{font-family:\0000329}}
+.gallery .gallery__image-box:hover {
+  opacity: 0.8;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_gallery\.scss}line{font-family:\0000338}}
+.gallery .gallery__image {
+  width: 100%;
+  display: block; }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_gallery\.scss}line{font-family:\0000344}}
+  .gallery .gallery__box {
+    width: 80%; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_gallery\.scss}line{font-family:\0000350}}
+  .gallery .gallery__image-box {
+    width: 50%; } }
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_gallery\.scss}line{font-family:\0000356}}
+  .gallery .gallery__image-box {
+    width: 100%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\000031}}
+.company {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\000037}}
+  .company .company__table {
+    border: 1px solid #aaa;
+    width: 50%;
+    margin: 0 auto;
+    background: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000314}}
+  .company .company__th {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 25%;
+    background: #eee;
+    text-align: center;
+    border: 1px solid #aaa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000324}}
+  .company .company__td {
+    width: 75%;
+    padding: 20px;
+    border: 1px solid #aaa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000332}}
+  .company .company__star {
+    width: 12%;
+    position: absolute;
+    right: 110px;
+    top: -100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000338}}
+  .company .company__ufo {
+    width: 12%;
+    position: absolute;
+    left: 110px;
+    top: 500px; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000346}}
+    .company .company__table {
+      width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000349}}
+    .company .company__star {
+      width: 15%;
+      top: -150px; } }
+  @media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000356}}
+    .company .company__star {
+      width: 17%;
+      top: -160px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000360}}
+    .company .company__ufo {
+      width: 14%; } }
+  @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000367}}
+    .company .company__star {
+      width: 17%;
+      right: 85px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000371}}
+    .company .company__ufo {
+      width: 14%;
+      left: 60px;
+      top: 550px; } }
+  @media screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000379}}
+    .company .company__star {
+      width: 21%;
+      right: 55px;
+      top: -120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000384}}
+    .company .company__ufo {
+      width: 16%;
+      top: 560px; } }
+  @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000391}}
+    .company .company__table {
+      width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\0000394}}
+    .company .company__ufo {
+      width: 18%;
+      top: 530px; } }
+  @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\00003102}}
+    .company .company__star {
+      width: 21%;
+      right: 55px;
+      top: -120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_company\.scss}line{font-family:\00003107}}
+    .company .company__ufo {
+      width: 19%;
+      left: 40px;
+      top: 560px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\000031}}
+.button-rot {
+  margin: 0 auto;
+  font-size: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\000036}}
+  .button-rot .button-rot__link {
+    display: block;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000311}}
+  .button-rot .button-rot__surface {
+    z-index: 1;
+    width: 330px;
+    margin: 50px auto 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000317}}
+  .button-rot .button-rot__back {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 35px;
+    text-align: center;
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000333}}
+    .button-rot .button-rot__back.button-rot__back_contact {
+      border: 1px solid orange;
+      color: #fff;
+      background: orange; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000340}}
+  .button-rot .button-rot__surface:hover .button-rot__back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000349}}
+    .button-rot .button-rot__surface:hover .button-rot__back.button-rot__back_contact {
+      background: rgba(255, 255, 255, 0);
+      color: #000; }
+  @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000356}}
+    .button-rot .button-rot__back {
+      width: 90%;
+      font-size: 1.2rem;
+      padding: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000361}}
+    .button-rot .button-rot__surface {
+      width: 80%;
+      margin: 80px auto 0; } }
+  @media screen and (max-width: 325px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000368}}
+    .button-rot .button-rot__back {
+      width: 95%;
+      font-size: 1.2rem;
+      padding: 28px 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-rot\.scss}line{font-family:\0000373}}
+    .button-rot .button-rot__surface {
+      width: 80%;
+      margin: 80px auto 0; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_icon-fixed\.scss}line{font-family:\000031}}
+.icon-fixed {
+  display: none;
+  width: 80px;
+  height: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_icon-fixed\.scss}line{font-family:\000037}}
+  .icon-fixed .icon-fixed__link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_icon-fixed\.scss}line{font-family:\0000317}}
+  .icon-fixed .icon-fixed__button {
+    font-size: 0.6rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.2rem;
+    height: 100%;
+    width: 100%;
+    padding: 22px 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_icon-fixed\.scss}line{font-family:\0000334}}
+  .icon-fixed.icon-fixed_contact .icon-fixed__button {
+    font-size: 0.6rem;
+    font-weight: bold;
+    background: #fff600;
+    text-align: center;
+    line-height: 1.2rem;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_icon-fixed\.scss}line{font-family:\000031}}
+    .icon-fixed {
+      display: block;
+      position: fixed;
+      bottom: 25px;
+      right: 35px;
+      border: 1px solid #666;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  display: block;
+  background: #0a3746;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_footer\.scss}line{font-family:\0000310}}
+  .footer .footer__info-p {
+    font-size: 0.8rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_title-catch\.scss}line{font-family:\000031}}
+.title-catch {
+  width: 100%;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_title-catch\.scss}line{font-family:\000035}}
+  .title-catch .title-catch__img {
+    width: 100%;
+    opacity: 0.8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_title-catch\.scss}line{font-family:\0000310}}
+  .title-catch .title-catch__box {
+    width: 40%;
+    height: 100px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 100px 0px;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_title-catch\.scss}line{font-family:\0000327}}
+  .title-catch .title-catch__h1 {
+    font-size: 2.4rem;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_title-catch\.scss}line{font-family:\0000332}}
+  .title-catch .title-catch__h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\000031}}
+.countdown-timer {
+  height: 360px;
+  width: 650px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 10px #888888;
+  box-shadow: 0 0 25px #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\0000313}}
+  .countdown-timer .countdown-timer__contents {
+    margin: 0 auto 70px;
+    padding-top: 130px;
+    width: 450px;
+    font-size: 3.2rem;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* Safari */
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    /* Safari */
+    flex-direction: row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\0000326}}
+  .countdown-timer .countdown-timer__num {
+    display: block;
+    margin: 0 auto;
+    font-family: 'TeXGyreAdventor-Regular';
+    letter-spacing: 0.3rem;
+    text-indent: 0.3rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\0000334}}
+  .countdown-timer .countdown-timer__message {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 60px;
+    color: #333;
+    letter-spacing: 1.2rem;
+    text-indent: 1.2rem;
+    padding-bottom: 90px; }
+  @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\000031}}
+    .countdown-timer {
+      height: 270px;
+      width: 95%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\0000350}}
+      .countdown-timer .countdown-timer__contents {
+        margin: 0 auto 40px;
+        padding-top: 70px;
+        width: 400px;
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        text-indent: 0.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\0000359}}
+      .countdown-timer .countdown-timer__message {
+        font-size: 1.2rem;
+        margin-top: 20px;
+        padding-bottom: 30px; } }
+  @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\000031}}
+    .countdown-timer {
+      height: 230px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\0000372}}
+      .countdown-timer .countdown-timer__contents {
+        margin: 0 auto 40px;
+        padding-top: 70px;
+        width: 300px;
+        font-size: 1.9rem;
+        letter-spacing: 0.1rem;
+        text-indent: 0.1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_countdown-timer\.scss}line{font-family:\0000380}}
+      .countdown-timer .countdown-timer__message {
+        font-size: 1.2rem;
+        letter-spacing: 0.4rem;
+        text-indent: 0.4rem; } }
+
+/* additional */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_js-move-fade\.scss}line{font-family:\000033}}
+.js-move-fade_on {
+  opacity: 0;
+  transform: translate(0, 60px);
+  -webkit-transform: translate(0, 60px);
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_js-move-fade\.scss}line{font-family:\0000314}}
+.js-move-fade_off {
+  opacity: 1.0;
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+/* additional */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_js-fade\.scss}line{font-family:\000033}}
+.js-fade_on {
+  opacity: 0;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_js-fade\.scss}line{font-family:\0000312}}
+.js-fade_off {
+  opacity: 1.0;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\000031}}
+.eye-catch {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\000036}}
+  .eye-catch.eye-catch_type_project {
+    background-color: #ffdf2d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\000039}}
+  .eye-catch.eye-catch_type_school {
+    background: rgba(108, 35, 24, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000313}}
+  .eye-catch .eye-catch__img {
+    width: 100%;
+    opacity: 0.8; }
+    @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000313}}
+      .eye-catch .eye-catch__img {
+        width: 640px;
+        overflow: hidden;
+        position: relative; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000327}}
+  .eye-catch .eye-catch__text {
+    width: 40%;
+    height: 100px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 100px 0px;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000327}}
+      .eye-catch .eye-catch__text {
+        width: 60%; } }
+    @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000327}}
+      .eye-catch .eye-catch__text {
+        width: 60%;
+        padding: 50px 0px; } }
+    @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000327}}
+      .eye-catch .eye-catch__text {
+        width: 80%; } }
+    @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000327}}
+      .eye-catch .eye-catch__text {
+        padding: 30px 10px;
+        height: 120px; } }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000327}}
+      .eye-catch .eye-catch__text {
+        width: 80%;
+        padding: 30px 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000365}}
+    .eye-catch .eye-catch__text.eye-catch__text_type_contact {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000377}}
+    .eye-catch .eye-catch__text.eye-catch__text_only_title {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000386}}
+  .eye-catch .eye-catch__title {
+    font-size: 2.4rem;
+    display: block;
+    font-weight: normal; }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000391}}
+      .eye-catch .eye-catch__title.eye-catch__title_type_project {
+        font-size: 2.2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000399}}
+  .eye-catch .eye-catch__subtitle {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    display: block;
+    font-weight: normal; }
+    @media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000399}}
+      .eye-catch .eye-catch__subtitle {
+        font-size: 1.4rem; } }
+    @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000399}}
+      .eye-catch .eye-catch__subtitle {
+        font-size: 1.3rem;
+        margin-top: 20px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        font-weight: normal; } }
+    @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_eye-catch\.scss}line{font-family:\0000399}}
+      .eye-catch .eye-catch__subtitle {
+        font-size: 1.05rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\000031}}
+.description {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 0px; }
+  @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\000031}}
+    .description {
+      width: 80%; } }
+  @media screen and (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\000031}}
+    .description {
+      width: 90%; } }
+  @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\000031}}
+    .description {
+      width: 95%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000316}}
+  .description .description__img-wrapper {
+    padding: 10px;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000316}}
+      .description .description__img-wrapper {
+        width: 100%;
+        padding: 40px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000328}}
+  .description .description__img-background {
+    background: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000332}}
+  .description .description__img-link {
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000337}}
+  .description .description__img {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    backface-visibility: hidden;
+    /* hover時に1pxズレるバグの補正 */
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000348}}
+    .description .description__img:hover {
+      opacity: 0.8;
+      -webkit-transition: 0.4s ease;
+      -moz-transition: 0.4s ease;
+      -ms-transition: 0.4s ease;
+      -o-transition: 0.4s ease;
+      transition: 0.4s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000358}}
+  .description .description__box {
+    width: 100%;
+    margin-top: 90px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000358}}
+      .description .description__box {
+        margin-top: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000370}}
+    .description .description__box.description__box_position_right {
+      -webkit-flex-direction: row;
+      flex-direction: row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000375}}
+    .description .description__box.description__box_position_left {
+      -webkit-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000380}}
+  .description .description__text {
+    text-align: left;
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000386}}
+    .description .description__text.description__text_position_right {
+      padding-left: 35px; }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000386}}
+        .description .description__text.description__text_position_right {
+          padding-left: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000393}}
+    .description .description__text.description__text_position_left {
+      padding-left: 25px; }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000393}}
+        .description .description__text.description__text_position_left {
+          padding-left: 0; } }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000380}}
+      .description .description__text {
+        text-align: center;
+        padding-left: 0;
+        font-size: 1.3rem;
+        line-height: 2.5rem; } }
+    @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000380}}
+      .description .description__text {
+        text-align: center;
+        padding-left: 0;
+        font-size: 1.2rem;
+        line-height: 2.5rem; } }
+    @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000380}}
+      .description .description__text {
+        font-size: 1.1rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000380}}
+      .description .description__text {
+        font-size: 1.05rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000380}}
+      .description .description__text {
+        font-size: 1.0rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\0000380}}
+      .description .description__text {
+        font-size: 0.9rem;
+        line-height: 2.0rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\00003134}}
+  .description .description__text-box {
+    width: 50%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\00003134}}
+      .description .description__text-box {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\00003150}}
+  .description .description__text-title {
+    letter-spacing: 0.05rem;
+    text-indent: 0.05rem;
+    padding-bottom: 5px; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_description\.scss}line{font-family:\00003150}}
+      .description .description__text-title {
+        margin-bottom: 20px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\000033}}
+.button-round .button-round__link {
+  position: relative;
+  width: 350px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  z-index: 1;
+  margin: 50px auto 50px;
+  background: rgba(255, 80, 200, 0.9);
+  -webkit-box-shadow: 0 0 10px #888888;
+  box-shadow: 0 0 10px #666;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin: 150px auto 0; }
+  @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\000033}}
+    .button-round .button-round__link {
+      width: 250px; } }
+  @media screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\000033}}
+    .button-round .button-round__link {
+      width: 90%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000327}}
+  .button-round .button-round__link.button-round__tone_duo-tone01 .button-round__back {
+    border-radius: 50px;
+    z-index: 1;
+    opacity: 1;
+    background: -webkit-gradient(linear, left top, right top, from(#e84ca3), to(#f8c76b)); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000333}}
+  .button-round .button-round__link.button-round__tone_duo-tone01 {
+    color: #222;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000339}}
+  .button-round .button-round__link.button-round__tone_duo-tone01 .button-round__back:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3em;
+    background: -webkit-gradient(linear, left top, right top, from(#f8c76b), to(#e84ca3));
+    transition: opacity 0.3s ease-out;
+    z-index: 2;
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000353}}
+  .button-round .button-round__link.button-round__tone_duo-tone01:hover .button-round__back:after {
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000370}}
+.button-round .button-round__back {
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000378}}
+.button-round .button-round__text {
+  backface-visibility: hidden;
+  z-index: 3;
+  position: relative;
+  font-size: 1.5rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 35px;
+  text-align: center;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+  @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000378}}
+    .button-round .button-round__text {
+      font-size: 1.1rem; } }
+  @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\0000378}}
+    .button-round .button-round__text {
+      font-size: 1.0rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\00003105}}
+.button-round .button-round__back:hover {
+  background: #ff92c1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_button-round\.scss}line{font-family:\00003108}}
+  .button-round .button-round__back:hover.button-round__text {
+    color: #fff;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+.cite-text {
+  padding-top: 100px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.5rem;
+  text-indent: 0.5rem; }
+  @media screen and (max-width: 1100px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      padding-top: 100px;
+      width: 100%;
+      font-size: 1.7rem; } }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      width: 90%;
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      letter-spacing: 0.4rem;
+      text-indent: 0.4rem; } }
+  @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      font-size: 1.4rem; } }
+  @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      font-size: 1.3rem;
+      letter-spacing: 0.2rem;
+      text-indent: 0.2rem; } }
+  @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      font-size: 1.2rem;
+      letter-spacing: 0.05rem;
+      text-indent: 0.05rem; } }
+  @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      font-size: 1.0rem; } }
+  @media screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      font-size: 0.9rem;
+      letter-spacing: 0.02rem;
+      text-indent: 0.02rem;
+      font-weight: bold; } }
+  @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      font-size: 0.90rem;
+      letter-spacing: 0.02rem;
+      text-indent: 0.02rem;
+      font-weight: bold; } }
+  @media screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\000032}}
+    .cite-text {
+      font-size: 0.83rem;
+      letter-spacing: 0.01rem;
+      text-indent: 0.01rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000359}}
+  .cite-text .cite-text__first {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000359}}
+      .cite-text .cite-text__first {
+        width: 90%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000370}}
+  .cite-text .cite-text__second {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    margin: 10px 0 0 auto;
+    text-align: right; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000370}}
+      .cite-text .cite-text__second {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+  .cite-text .cite-text__name {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    margin: 30px 0 0 auto;
+    text-align: right; }
+    @media screen and (max-width: 1100px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 1.3rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        margin-top: 30px;
+        width: 80%;
+        right: 0;
+        font-size: 1.3rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 1.2rem; } }
+    @media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 1.0rem;
+        line-height: 1.7rem; } }
+    @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 1.1rem;
+        letter-spacing: 0.05rem;
+        text-indent: 0.05rem; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        text-indent: 0.1rem; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 0.7rem;
+        letter-spacing: 0.02rem;
+        text-indent: 0.02rem; } }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 0.8rem;
+        letter-spacing: 0.02rem;
+        text-indent: 0.02rem; } }
+    @media screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_cite-text\.scss}line{font-family:\0000384}}
+      .cite-text .cite-text__name {
+        font-size: 0.75rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contact-temp\.scss}line{font-family:\000031}}
+.contact-temp {
+  width: 70%;
+  margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contact-temp\.scss}line{font-family:\000031}}
+    .contact-temp {
+      width: 80%; } }
+  @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contact-temp\.scss}line{font-family:\000031}}
+    .contact-temp {
+      width: 90%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contact-temp\.scss}line{font-family:\0000313}}
+  .contact-temp .contact-temp__section {
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_contact-temp\.scss}line{font-family:\0000319}}
+  .contact-temp .contact-temp__google-form {
+    width: 100%;
+    height: 1200px; }
+
+@media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_header-navi\.scss}line{font-family:\000031}}
+  .header-navi {
+    padding-top: 80px;
+    background: url(../image/logo_cmyk_03.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 80px;
+    background-position: center; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\000031}}
+.diff-contents {
+  padding: 30px 0;
+  margin-top: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\000034}}
+  .diff-contents.diff-contents_type_second-generation {
+    background: -webkit-gradient(linear, left top, right top, from(#f8c76b), to(#e84ca3));
+    color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\000038}}
+  .diff-contents.diff-contents_margintop_none {
+    margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000312}}
+  .diff-contents .diff-contents__wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 0px; }
+    @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000312}}
+      .diff-contents .diff-contents__wrapper {
+        width: 80%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000320}}
+  .diff-contents .diff-contents__description {
+    margin: 15px auto;
+    font-size: 1.1rem;
+    line-height: 1.8rem; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000320}}
+      .diff-contents .diff-contents__description {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000329}}
+  .diff-contents .diff-contents__notes {
+    width: 650px;
+    margin: 0 auto; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000329}}
+      .diff-contents .diff-contents__notes {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000338}}
+  .diff-contents .diff-contents__form-title {
+    text-align: center;
+    font-size: 1.8rem;
+    border-bottom: rgba(255, 255, 255, 0.4) 1px solid;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000347}}
+  .diff-contents .diff-contents__form-div {
+    margin-bottom: 90px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000350}}
+  .diff-contents .diff-contents__form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 14px;
+    -webkit-appearance: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000360}}
+  .diff-contents .diff-contents__th {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2rem; }
+    @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000360}}
+      .diff-contents .diff-contents__th {
+        font-size: 1.0rem; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000360}}
+      .diff-contents .diff-contents__th {
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000376}}
+    .diff-contents .diff-contents__th.js-diff-contents__th_line-height_low {
+      line-height: 1.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000381}}
+  .diff-contents .diff-contents__td {
+    width: 66%;
+    position: relative; }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000381}}
+      .diff-contents .diff-contents__td {
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000394}}
+  .diff-contents .diff-contents__date {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\0000397}}
+    .diff-contents .diff-contents__date + i {
+      position: absolute;
+      top: calc(50% - 0.5rem);
+      right: calc(5% + 5px);
+      font-size: 1rem;
+      pointer-events: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003108}}
+  .diff-contents .diff-contents__input {
+    padding: 10px;
+    margin: 0 auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003126}}
+  .diff-contents .diff-contents__date {
+    padding: 10px;
+    margin: 0 auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003143}}
+  .diff-contents .diff-contents__table {
+    width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+    border-collapse: separate;
+    border-spacing: 0 16px; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003143}}
+      .diff-contents .diff-contents__table {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003155}}
+  .diff-contents .diff-contents__submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 7px 70px;
+    font-size: 1.2em;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003170}}
+    .diff-contents .diff-contents__submit:hover {
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003181}}
+  .diff-contents .diff-contents__form-alert {
+    font-size: 1rem;
+    color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003185}}
+    .diff-contents .diff-contents__form-alert.js-diff-contents__form-alert_display_none {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003188}}
+    .diff-contents .diff-contents__form-alert.js-diff-contents__form-alert_display_inline {
+      display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003194}}
+  .diff-contents .diff-contents__description-wrapper {
+    display: flex;
+    flex-direction: row; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003194}}
+      .diff-contents .diff-contents__description-wrapper {
+        flex-direction: column; } }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003200}}
+      .diff-contents .diff-contents__description-wrapper.diff-contents__description-wrapper_reverse_order {
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003208}}
+  .diff-contents .diff-contents__photo-wrapper {
+    width: 45%; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003208}}
+      .diff-contents .diff-contents__photo-wrapper {
+        width: 50%; } }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003208}}
+      .diff-contents .diff-contents__photo-wrapper {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003217}}
+  .diff-contents .diff-contents__photo-padding-wrapper {
+    padding: 15px 25px 15px 15px; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003217}}
+      .diff-contents .diff-contents__photo-padding-wrapper {
+        padding: 15px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003223}}
+  .diff-contents .diff-contents__photo {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003226}}
+  .diff-contents .diff-contents__text-wrapper {
+    width: 55%; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003226}}
+      .diff-contents .diff-contents__text-wrapper {
+        width: 50%; } }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003226}}
+      .diff-contents .diff-contents__text-wrapper {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003235}}
+  .diff-contents .diff-contents__theme-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003235}}
+      .diff-contents .diff-contents__theme-div {
+        width: 110%;
+        max-width: 360px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003244}}
+  .diff-contents .diff-contents__theme-title {
+    display: block;
+    padding: 1px 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: #000 solid 1px;
+    border-radius: 5px; }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003244}}
+      .diff-contents .diff-contents__theme-title {
+        font-size: 1.0rem;
+        margin-right: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003257}}
+  .diff-contents .diff-contents__theme {
+    display: block;
+    padding: 0 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.9rem; }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003257}}
+      .diff-contents .diff-contents__theme {
+        font-size: 0.8rem;
+        margin: 0px 3px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003271}}
+    .diff-contents .diff-contents__theme.diff-contents__theme_color_blue {
+      color: #FFF;
+      background: #11b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003275}}
+    .diff-contents .diff-contents__theme.diff-contents__theme_color_red {
+      color: #FFF;
+      background: #b11; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003279}}
+    .diff-contents .diff-contents__theme.diff-contents__theme_color_green {
+      color: #FFF;
+      background: #1b1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003286}}
+  .diff-contents .diff-contents__text-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003286}}
+      .diff-contents .diff-contents__text-title {
+        padding: 15px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003296}}
+  .diff-contents .diff-contents__text {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    font-weight: bold; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003296}}
+      .diff-contents .diff-contents__text {
+        padding-top: 0; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003296}}
+      .diff-contents .diff-contents__text {
+        font-size: 0.9rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003311}}
+  .diff-contents .diff-contents__notice-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.35rem; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003311}}
+      .diff-contents .diff-contents__notice-title {
+        padding-top: 0; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003311}}
+      .diff-contents .diff-contents__notice-title {
+        font-size: 0.9rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003327}}
+  .diff-contents .diff-contents__notice-date {
+    display: block;
+    margin: 30px auto;
+    font-size: 1.35rem;
+    line-height: 2.2rem;
+    font-weight: bold; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003327}}
+      .diff-contents .diff-contents__notice-date {
+        padding-top: 0;
+        font-size: 1.25rem; } }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003327}}
+      .diff-contents .diff-contents__notice-date {
+        text-align: center;
+        margin: 10px auto; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_diff-contents\.scss}line{font-family:\00003327}}
+      .diff-contents .diff-contents__notice-date {
+        font-size: 0.9rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\000031}}
+.form-simple {
+  min-height: 50vh;
+  padding-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\000036}}
+  .form-simple .form-simple__form-div {
+    width: 70%;
+    padding: 75px 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 10px #888888;
+    box-shadow: 0 0 25px #000; }
+    @media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\000036}}
+      .form-simple .form-simple__form-div {
+        width: 90%;
+        padding: 60px 30px; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\000036}}
+      .form-simple .form-simple__form-div {
+        width: 90%;
+        padding: 60px 15px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000326}}
+  .form-simple .form-simple__title {
+    text-align: center;
+    font-size: 1.8rem;
+    border-bottom: rgba(255, 255, 255, 0.4) 1px solid;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-bottom: 50px; }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000326}}
+      .form-simple .form-simple__title {
+        margin-bottom: 35px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000338}}
+  .form-simple .form-simple__form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 14px;
+    -webkit-appearance: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000345}}
+  .form-simple .form-simple__tr {
+    height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000349}}
+  .form-simple .form-simple__th {
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #fff; }
+    @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000349}}
+      .form-simple .form-simple__th {
+        font-size: 1.0rem; } }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000349}}
+      .form-simple .form-simple__th {
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000366}}
+    .form-simple .form-simple__th.js-form-simple__th_line-height_low {
+      line-height: 1.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000371}}
+  .form-simple .form-simple__td {
+    width: 66%; }
+    @media screen and (max-width: 450px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000371}}
+      .form-simple .form-simple__td {
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000383}}
+  .form-simple .form-simple__input {
+    padding: 10px;
+    margin: 0 auto;
+    -webkit-appearance: none;
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid black;
+    border-radius: 0;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000399}}
+  .form-simple .form-simple__table {
+    width: 650px;
+    margin: 0 auto;
+    line-height: 1.7; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\0000399}}
+      .form-simple .form-simple__table {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\00003109}}
+  .form-simple .form-simple__submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 7px 70px;
+    font-size: 1.2em;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\00003124}}
+    .form-simple .form-simple__submit:hover {
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\00003136}}
+  .form-simple .form-simple__form-alert {
+    font-size: 1rem;
+    color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\00003140}}
+    .form-simple .form-simple__form-alert.js-form-simple__form-alert_display_none {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_form-simple\.scss}line{font-family:\00003143}}
+    .form-simple .form-simple__form-alert.js-form-simple__form-alert_display_inline {
+      display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_link-button\.scss}line{font-family:\000031}}
+.link-button {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  margin: 25px auto 0; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_link-button\.scss}line{font-family:\000031}}
+    .link-button {
+      max-width: 400px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yossy\/Documents\/sass_uchu-next\/assets\/sass\/block\/_link-button\.scss}line{font-family:\0000310}}
+  .link-button.link-button_color_blue {
+    background: #44f;
+    color: #fff; }

@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="shortcut icon" href="assets/image/logo_mark_pb_transparent.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link type="text/css" href="assets/css/lightbox.css" rel="stylesheet" media="all">
+    <link type="text/css" href="assets/css/style.css" rel="stylesheet" media="all">
+  <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="assets/js/jquery.bxSlider.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.inview.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.top-slider__slider').bxSlider({
+            auto: true,
+            pause:  4000,
+            speed: 800,
+            mode: 'horizontal'
+            });
+        });
+    </script>
+    <title>Project BASE</title>
+</head>
+<body class="page">
+    <!-- HEADER -->
+
+    <header class="header-navi">
+        <div class="navi navi__display_top">
+            <div class="navi__name-box">
+                <div class="navi__name-wrapper">
+                    <img class="navi__logoImg" src="assets/image/logo_project_base_transparent.png" alt="ロゴタイトル">
+                </div>
+            </div>
+
+            <nav class="navi__nav">
+                <ul class="navi__ul">
+                    <a href="school.html" class="list"><li class="list__li js-list__currentItem">Project BASEの特徴</li></a>
+                    <a href="camp.html" class="list"><li class="list__li">利用までの流れ
+                    </li></a>
+                    <a href="camp.html" class="list"><li class="list__li">利用者の声</li></a>
+                </ul>   
+                <span id="js-navi__slideLine"></span>
+            </nav>      
+        </div> 
+    </header>
+
+    <!-- END HEADER -->
+    <div class="mainContainer">
+        <div class="sectionContainer sectionContainer_margin_none sectionContainer_bg_business01">
+            <div class="titleBox">
+                <h2 class="titleBox__title">フリーのコンサルタントに求められる<br>キャリアアップを支援します</h2>
+            </div>
+            <div class="miniContainer">
+                <div class="textBox">
+                    <p class="textBox__text">フリーランスでは、スキルも磨きたいし、案件も見つけたい。</p>
+                    <p class="textBox__text">あなたの目指すキャリアに合った案件、ご紹介します。</p>
+                </div>
+                <a class="button" href="#">かんたん無料登録を行う</a>
+            </div>
+
+        </div>
+        <div class="sectionWrapper sectionWrapper_bg_business01">
+            <div class="sectionContainer sectionContainer_bg_white">
+                <div class="imgBox">
+                    <img src="assets/image/logo_pb_large-01.png" alt="" class="imgBox__img">
+                </div>
+                <div class="sectionContainer__textBox">
+                    <p class="sectionContainer__text">
+                        Project BASEとは、一つの会社に依存せず、プロジェクト単位でジョブホッピングする新しい働き方を模索するプロフェッショナル人材と、プロジェクトに必要な人材を探している企業様をつなげるプラットフォームサービスです。
+                    </p>
+                    <p class="sectionContainer__text">
+                        2008年の創業から現在まで、数百件に及ぶマッチングを成立させてきました。
+                    </p>
+                    <p class="sectionContainer__text">
+                        その経験から、個々のキャリアビジョンに合った、キャリアアップにつながるプロジェクトをご紹介することが可能です。
+                    </p>
+                </div>
+            </div>
+            <div class="sectionContainer sectionContainer_bg_white">
+                何かのセクション・・・
+            </div>
+            <div class="sectionContainer sectionContainer_bg_grid">
+                何かのセクション・・・
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- END CONTENTS WRAPPER -->
+
+
+    <footer>
+        <nav class="footer">
+            <div>
+            <p class="footer__info-p">Copyright (c) iCubes Inc. All Rights Reserved.</p>
+            </div>
+        </nav>
+    </footer>
+    
+    <script src="assets/js/lightbox.js"></script>
+    <script>
+    $(function() {
+        $('.js-move-fade_on').on('inview', function(event, isInView, visiblePartX, visiblePartY)  {
+            if(isInView){
+                $(this).stop().addClass('js-move-fade_off');
+            }
+
+        });
+    });
+    </script>
+
+    <script>
+    $(function() {
+        $('.js-fade_on').on('inview', function(event, isInView, visiblePartX, visiblePartY)  {
+            if(isInView){
+                $(this).stop().addClass('js-fade_off');
+            }
+
+        });
+    });
+    </script>
+
+    <script>
+        //ver1.1
+        var $nav_bar = $('#js-navi');
+        var sleep = setInterval(function() {
+                if ($(window).scrollTop() > 110) { 
+                    nav_outScroll();
+
+                }else if($(window).scrollTop() <= 110){
+                    nav_inScroll();
+
+                }
+        },150);
+    </script>
+    <script>
+        function nav_inScroll(){
+                    $nav_bar.addClass('js-navi__display_disappear');
+                    $nav_bar.removeClass('js-navi__display_appear');
+        }
+
+        function nav_outScroll(){
+                    $nav_bar.addClass('js-navi__display_appear');
+                    $nav_bar.removeClass('js-navi__display_disappear');
+        }
+
+    </script>
+
+<!-- for saku -->
+<!-- 下に線をつけたいとき -->
+    <script>
+        currentItem = $(".js-list__currentItem");
+        if (currentItem[0]) {
+          currentItem.css({
+            // "width": currentItem.width(),
+            // "left": currentItem.position().left
+          });
+            $("#js-navi__slideLine").css({
+              "width": currentItem.width(),
+              "left": currentItem.position().left
+            });
+        }
+    </script>
+    <script>
+        $(".navi__nav .list__li").hover(
+          // ホバー時
+          function(){ 
+            // ホバーしているメニューの幅と左位置に変更
+            $("#js-navi__slideLine").css({
+              "width": $(this).width(),
+              "left": $(this).position().left,
+              "color": "#"
+            });
+          },
+          // ホバーが外れたとき
+          function(){
+            // カレントメニューがある場合
+            if (currentItem[0]) {
+              // カレントメニューに下線を戻す
+              $("#js-navi__slideLine").css({
+                "width": currentItem.width(),
+                "left": currentItem.position().left
+              });
+            }
+            // カレントメニューがない場合
+            else {
+              // 下線を消す
+              $("#js-navi__slideLine").width(0);
+            }
+          }
+         );
+    </script>
+
+</body>
+
+</html>

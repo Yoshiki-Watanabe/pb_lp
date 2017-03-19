@@ -1,0 +1,124 @@
+.list{
+	text-decoration: none;
+	color: #000;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    flex: 1;  // 親要素にflexを前提
+    text-align: center;
+    font-size: 1.2rem;
+   	opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include transition-sec(0.4s);
+
+    @media screen and (max-width:1200px){
+        font-size: 1.0rem;
+    }
+
+    @media screen and (max-width:768px){
+        font-size: 0.9rem;
+    }
+
+    @media screen and (max-width:640px){
+        font-size: 0.8rem;
+    }
+
+    @media screen and (max-width:360px){
+        font-size: 0.7rem;
+    }
+
+    &.js-list_include_img{
+        flex: 2;
+    }
+
+    &:hover{
+        text-decoration: underline;
+        @include transition-sec(0.2s);
+    }
+
+// 	&:hover .list__li{
+// 		opacity: 0.6;
+// // 	   @include transition-sec(0.3s);
+// 	}
+
+	.list__li{
+// 	    @include transition-sec(0.3s);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        &.list__li_include_img{
+        }
+	}
+
+    .list__img{
+       height: 110px;
+        @media screen and (max-width:768px){
+            height: 80px;
+        }
+       .js-list__img_display_none{
+           display:none;
+       }
+    }
+   	
+
+
+
+
+    // // Effect
+
+    // &.list_hover_line{
+    //     &::after,
+    //     &::before,
+    //     .list__li::after,
+    //     .list__li::before {
+    //         background-color: #3498db;
+    //         content: '';
+    //         display: block;
+    //         position: absolute;
+    //         z-index: 10;
+    //         transition: all .3s ease;
+    //         -webkit-transition: all .3s ease;
+    //     }
+    //     &::after {
+    //         height: 1px;
+    //         left: -1px;
+    //         top: -1px;
+    //         width: 0px;
+    //     }
+    //     &::before {
+    //         bottom: -1px;
+    //         height: 1px;
+    //         right: -1px;
+    //         width: 0px;
+    //     }
+    //     .list__li::after{
+    //         bottom: -1px;
+    //         height: 0px;
+    //         left: -1px;
+    //         width: 1px;            
+    //     }
+    //     .list__li::before{
+    //         height: 0px;
+    //         right: -1px;
+    //         top: -1px;
+    //         width: 1px;          
+    //     }
+
+
+    //     &:hover::before, &:hover::after{
+    //         width: 100%;
+    //         width: calc(100% + 1px);
+    //     }
+    //     .list__li:hover::after{
+    //         height: 100%;
+    //         height: calc(100% + 1px);
+    //     }
+
+    // }	
+
+
+}

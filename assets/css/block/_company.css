@@ -1,0 +1,72 @@
+.company {
+  position: relative; }
+  .company .company__table {
+    border: 1px solid #aaa;
+    width: 50%;
+    margin: 0 auto;
+    background: #FFF; }
+  .company .company__th {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 25%;
+    background: #eee;
+    text-align: center;
+    border: 1px solid #aaa; }
+  .company .company__td {
+    width: 75%;
+    padding: 20px;
+    border: 1px solid #aaa; }
+  .company .company__star {
+    width: 12%;
+    position: absolute;
+    right: 110px;
+    top: -100px; }
+  .company .company__ufo {
+    width: 12%;
+    position: absolute;
+    left: 110px;
+    top: 500px; }
+  @media screen and (max-width: 1024px) {
+    .company .company__table {
+      width: 60%; }
+    .company .company__star {
+      width: 15%;
+      top: -150px; } }
+  @media screen and (max-width: 800px) {
+    .company .company__star {
+      width: 17%;
+      top: -160px; }
+    .company .company__ufo {
+      width: 14%; } }
+  @media screen and (max-width: 600px) {
+    .company .company__star {
+      width: 17%;
+      right: 85px; }
+    .company .company__ufo {
+      width: 14%;
+      left: 60px;
+      top: 550px; } }
+  @media screen and (max-width: 500px) {
+    .company .company__star {
+      width: 21%;
+      right: 55px;
+      top: -120px; }
+    .company .company__ufo {
+      width: 16%;
+      top: 560px; } }
+  @media screen and (max-width: 425px) {
+    .company .company__table {
+      width: 90%; }
+    .company .company__ufo {
+      width: 18%;
+      top: 530px; } }
+  @media screen and (max-width: 375px) {
+    .company .company__star {
+      width: 21%;
+      right: 55px;
+      top: -120px; }
+    .company .company__ufo {
+      width: 19%;
+      left: 40px;
+      top: 560px; } }

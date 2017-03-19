@@ -1,0 +1,45 @@
+
+.bx-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+        margin-top: 5px;
+}
+.bx-wrapper .bx-pager .bx-pager-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	z-index: 9999;
+}
+.bx-prev {
+	display: none;
+}
+.bx-wrapper .bx-next {
+	display: none;
+}	
+
+.bx-viewport img{
+	width: 100%;
+	opacity: 1;
+}
+
+
+
+/* bx-control */
+.bx-pager a {
+	display: none
+}
+.bx-pager{
+	display: none
+}
+.bx-pager a:hover,
+.bx-pager a.active {
+	background: #000;
+}
+

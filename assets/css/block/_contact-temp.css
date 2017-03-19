@@ -1,0 +1,9 @@
+.contact-temp {
+  width: 70%;
+  margin: 0 auto; }
+  @media screen and (max-width: 768px) {
+    .contact-temp {
+      width: 80%; } }
+  @media screen and (max-width: 425px) {
+    .contact-temp {
+      width: 90%; } }

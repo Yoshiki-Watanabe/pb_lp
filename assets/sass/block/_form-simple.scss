@@ -1,0 +1,151 @@
+.form-simple{
+	 min-height: 50vh;
+	 padding-top: 50px;
+	 
+
+	.form-simple__form-div{
+		width: 70%;
+		padding: 75px 50px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		margin: 0 auto;
+		background: rgba(0,0,0,0.75);
+		-webkit-box-shadow: 0 0 10px #888888;
+		        box-shadow: 0 0 25px #000;
+		@media screen and (max-width:640px){
+			width: 90%;
+			padding: 60px 30px;
+		}
+		@media screen and (max-width:450px){
+			width: 90%;
+			padding: 60px 15px;
+		}
+	}
+
+
+	.form-simple__title{
+		font-weight: normal;
+	    text-align: center;
+	    font-size: 1.8rem;
+	    border-bottom: rgba(255, 255, 255, 0.4) 1px solid;
+	    padding-bottom: 10px;
+	    color: #fff;
+	    margin-bottom: 50px;
+		@media screen and (max-width:450px){
+			margin-bottom: 35px;
+		}
+	}
+
+	.form-simple__form{
+		padding-top: 20px;
+	    padding-bottom: 20px;
+	    margin-top: 14px;
+    	-webkit-appearance: none;
+	}
+
+	.form-simple__tr{
+		height: 60px;
+	}
+
+	.form-simple__th{
+		text-align: left;
+		font-weight: normal;
+	    font-size: 1.2rem;
+	    color: #fff;
+		@media screen and (max-width:550px){
+	    	font-size: 1.0rem;
+		}
+		@media screen and (max-width:450px){
+		    width: 100%;
+    		box-sizing: border-box;
+			display: block;
+		    text-align: center;
+		    margin-bottom: 20px;
+		    font-size: 1.4rem;
+		}
+
+		&.js-form-simple__th_line-height_low{
+			line-height: 1.2rem;
+		}
+	}
+
+	.form-simple__td{
+		width: 66%;
+		@media screen and (max-width:450px){
+		    width: 100%;
+    		box-sizing: border-box;
+			display: block;
+		    text-align: center;
+		    margin-bottom: 20px;
+		    font-size: 1.4rem;
+		}
+	}
+
+	.form-simple__input{
+		padding: 10px;
+	    margin: 0 auto;
+	    -webkit-appearance: none;
+	    width: 90%;
+	    font-size: 1rem;
+	    line-height: 1.5;
+	    border: 1px solid black;
+	    border-radius: 0;
+	    display: block;
+	    background-color: rgba(255,255,255,0.8);
+	    border: none;
+	}
+
+
+
+	.form-simple__table{
+		width: 650px;
+		margin: 0 auto;
+		line-height: 1.7;
+		
+		@media screen and (max-width:1024px){
+	    	width: 100%;
+		}
+	}
+
+	.form-simple__submit{
+	    display: block;
+		margin: 0 auto;
+	    margin-top: 50px;
+	    padding: 7px 70px;
+	    font-size: 1.2em;
+	    border-style: none;
+	    background-color: rgba(255,255,255,0.6);
+	    cursor: pointer;
+	    	-webkit-transition: 0.3s;
+	    	   -moz-transition: 0.3s;
+	    	    -ms-transition: 0.3s;
+	    	     -o-transition: 0.3s;
+	    	        transition: 0.3s;
+	    
+	    &:hover{
+	    	-webkit-transition: 0.3s;
+	    	   -moz-transition: 0.3s;
+	    	    -ms-transition: 0.3s;
+	    	     -o-transition: 0.3s;
+	    	        transition: 0.3s;
+	    background-color: rgba(255,255,255,1);
+	        
+	    }
+	}
+
+// フォーム入力チェック時のエラー文
+	.form-simple__form-alert{
+		font-size: 1rem;
+	    color: red;
+	    
+	    &.js-form-simple__form-alert_display_none{
+	    	display: none;
+	    }
+	    &.js-form-simple__form-alert_display_inline{
+	    	display: inline;
+	    	
+	    }
+	}
+
+}

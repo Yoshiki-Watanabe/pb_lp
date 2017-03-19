@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.description {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 0px; }
+  @media screen and (max-width: 768px) {
+    .description {
+      width: 90%; } }
+  @media screen and (max-width: 450px) {
+    .description {
+      width: 95%; } }
+  .description .description__img-link {
+    width: 50%; }
+    @media screen and (max-width: 768px) {
+      .description .description__img-link {
+        width: 100%;
+        padding: 40px 0; } }
+  .description .description__img {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    padding: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* hover時に1pxズレるバグの補正 */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease; }
+    .description .description__img.hover {
+      opacity: 0.8;
+      -webkit-transition: 0.4s ease;
+      -moz-transition: 0.4s ease;
+      -ms-transition: 0.4s ease;
+      -o-transition: 0.4s ease;
+      transition: 0.4s ease; }
+  .description .description__box {
+    width: 100%;
+    margin-top: 90px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    @media screen and (max-width: 768px) {
+      .description .description__box {
+        margin-top: 10px; } }
+    .description .description__box.description__box_position_right {
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; }
+    .description .description__box.description__box_position_left {
+      -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+  .description .description__text {
+    text-align: left;
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.8rem; }
+    .description .description__text.description__text_position_right {
+      padding-left: 35px; }
+    .description .description__text.description__text_position_left {
+      padding-left: 25px; }
+    @media screen and (max-width: 768px) {
+      .description .description__text {
+        text-align: center;
+        padding-left: 0;
+        font-size: 1.3rem;
+        line-height: 2.5rem; } }
+    @media screen and (max-width: 600px) {
+      .description .description__text {
+        text-align: center;
+        padding-left: 0;
+        font-size: 1.2rem;
+        line-height: 2.5rem; } }
+    @media screen and (max-width: 550px) {
+      .description .description__text {
+        font-size: 1.1rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 450px) {
+      .description .description__text {
+        font-size: 1.05rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 400px) {
+      .description .description__text {
+        font-size: 1.0rem;
+        line-height: 2.0rem; } }
+    @media screen and (max-width: 375px) {
+      .description .description__text {
+        font-size: 0.9rem;
+        line-height: 2.0rem; } }
+  .description .description__text-box {
+    width: 50%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+      .description .description__text-box {
+        width: 100%; } }
+  @media screen and (max-width: 768px) {
+    .description .description__text-title {
+      margin-bottom: 20px; } }

@@ -1,0 +1,13 @@
+
+
+@keyframes tone_duo-tone_01 {
+  // 0% { background-color: #f8c76b; }
+  // 20% { background-color: #f4ae76; }
+  // 40% { background-color: #f19681; }
+  // 60% { background-color: #ee7d8c; }
+  // 80% { background-color: #eb6597; }
+  // 100% { background-color: #e84ca3; }
+  0% {background: -webkit-gradient(linear, left top, right top, from(#f8c76b), to(#e84ca3));}
+  50% {background: -webkit-gradient(linear, left top, right top, from(#f19681), to(#ee7d8c));}
+  100% {background: -webkit-gradient(linear, left top, right top, from(#e84ca3), to(#f8c76b));}
+}

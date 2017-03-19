@@ -1,0 +1,64 @@
+.icon-fixed{
+	
+	display: none;
+	
+	.icon-fixed__link{	
+		display: block;
+		text-decoration: none;
+		color: #000;
+		margin: 0 auto;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	}
+
+	.icon-fixed__button{
+		font-size: 0.6rem;
+		font-weight: bold;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 1.2rem;
+		height: 100%;
+		width: 100%;
+		padding: 22px 1px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+
+	}
+
+	&.icon-fixed_contact{
+		
+		.icon-fixed__button{
+			font-size: 0.6rem;
+			font-weight: bold;
+			background: rgb(255, 246, 0);
+			text-align: center;
+			line-height: 1.2rem;
+			-webkit-border-radius: 50%;
+			        border-radius: 50%;
+		}
+
+		@media screen and (max-width:425px){
+			.icon-fixed__button{
+				display: block;
+				width: 80px;
+				height: 80px;
+				position: fixed;
+				bottom: 25px;
+				right: 35px;
+				border: 1px solid #666;
+			}
+		}
+
+	}
+
+
+
+	
+}
+
+
+
+
+

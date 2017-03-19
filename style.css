@@ -1,0 +1,32 @@
+
+.navi{
+	height: 130px;
+	background: rgba(255,255,255,0.8);
+	position: relative;
+}
+.navi__nav{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+}
+.navi__ul{
+	display: flex;
+	-webkit-align-items: flex-end; /* Safari */
+	 	align-items: flex-end;
+	-webkit-flex-direction: row; /* Safari */
+		flex-direction: row;
+}
+.list{
+	font-size: 12px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.body{
+	font-family: "游ゴシック", "Yu Gothic", "YuGothic", "Hiragino Sans", "ヒラギノ角ゴシック", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Meiryo UI", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}

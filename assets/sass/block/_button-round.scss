@@ -1,0 +1,121 @@
+.button-round{
+
+	.button-round__link{
+		position: relative;
+		width: 350px;
+		display: block;
+		text-decoration: none;
+		color : #fff;
+		overflow: hidden;    
+		z-index: 1;
+	    margin: 50px auto 50px;
+	    background: rgba(255, 80, 200, 0.9);
+	    -webkit-box-shadow: 0 0 10px #888888;
+	    box-shadow: 0 0 10px #666;
+	    -webkit-border-radius: 50px;
+	    border-radius: 50px;
+	    margin: 150px auto 0;
+	    
+		@media screen and (max-width: 550px){
+			width: 250px;
+		}
+
+		@media screen and (max-width: 400px){
+			width: 90%;
+		}
+	    
+	    &.button-round__tone_duo-tone01 .button-round__back{
+	    	border-radius: 50px;
+	    	z-index: 1;
+			opacity: 1;
+			background: -webkit-gradient(linear, left top, right top, from(rgba(232, 76, 163, 1)), to(rgba(248, 199, 107, 1)));
+		}
+		&.button-round__tone_duo-tone01{
+			color: #222;
+			@include transition-sec(0.4s);
+			-webkit-box-shadow: none;
+			        box-shadow: none;
+		}
+		&.button-round__tone_duo-tone01 .button-round__back:after {
+		  position: absolute;
+		  content: '';
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  border-radius: 0.3em;
+		  background: -webkit-gradient(linear, left top, right top, from(rgba(248, 199, 107, 1)), to(rgba(232, 76, 163, 1)));
+		  transition: opacity 0.3s ease-out;
+		  z-index: 2;
+		  opacity: 0;
+		}
+
+		&.button-round__tone_duo-tone01:hover .button-round__back:after {
+			opacity: 1;
+		}
+		// &.button-round__tone_duo-tone01:hover .button-round__back{
+		// 	opacity: 1;
+		// 	@include transition-sec(0.4s);
+		// 	-webkit-box-shadow: none;
+		// 	        box-shadow: none;
+		// }
+		
+		@media screen and (max-width: 768px){
+		//	padding: 20px 0;
+		}
+	}
+
+
+
+	.button-round__back{
+		@include transition-sec(0.6s);
+		
+		@media screen and (max-width: 375px){
+		//	width: 250px;
+		}
+	}
+
+	.button-round__text{
+		backface-visibility: hidden;
+	    z-index: 3;
+	    position: relative;
+		font-size: 1.5rem;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		display: block;
+		padding:35px;
+		text-align: center;
+		@include transition-sec(0.6s);
+		-webkit-border-radius: 50px;
+		        border-radius: 50px;
+		@media screen and (max-width: 768px){
+		//	margin-top: 50px;
+		}
+
+		@media screen and (max-width: 550px){
+			font-size: 1.1rem;
+		}
+
+		@media screen and (max-width: 375px){
+			font-size: 1.0rem;
+		}
+	}
+
+	.button-round__back:hover{
+		background: #ff92c1;
+		
+		&.button-round__text{
+			color : #fff;
+		    -webkit-transition: 0.6s ease;
+		    -moz-transition: 0.6s ease;
+		    -ms-transition: 0.6s ease;
+		    -o-transition: 0.6s ease;
+		    transition: 0.6s ease;
+		}
+
+		
+	}
+	
+}
+

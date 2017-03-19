@@ -1,0 +1,16 @@
+.section-title .section-title__title {
+  font-size: 1.8rem;
+  text-align: center; }
+  .section-title .section-title__title .section-title__title_type_work {
+    margin: 300px 0 0; }
+  .section-title .section-title__title .section-title__title_type_work {
+    margin: 120px 0 0; }
+
+.section-title .section-title__border {
+  border-top: 1px solid;
+  text-align: center;
+  margin: 7px auto 40px; }
+  .section-title .section-title__border .section-title__border_type_work {
+    width: 166px; }
+  .section-title .section-title__border .section-title__border_type_gallery {
+    width: 201px; }

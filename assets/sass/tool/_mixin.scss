@@ -1,0 +1,21 @@
+@mixin transform-deg($deg) {
+  -o-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -webkit-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+@mixin transition-sec($sec){
+    -webkit-transition: $sec ease;
+    -moz-transition: $sec ease;
+    -ms-transition: $sec ease;
+    -o-transition: $sec ease;
+    transition: $sec ease;
+}
+
+@mixin max-screen($pix){
+  @media screen and (max-width:$pix){
+    @content;
+  }
+}

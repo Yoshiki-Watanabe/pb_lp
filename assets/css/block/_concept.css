@@ -1,0 +1,97 @@
+.concept {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5); }
+  .concept .concept__message-h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 0.3rem;
+    text-indent: 0.3rem; }
+  .concept .concept__message-p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+    text-indent: 0.1rem; }
+  .concept .concept__rocket-red {
+    width: 15%;
+    position: absolute;
+    left: 90px;
+    top: 260px; }
+  .concept .concept__moon {
+    width: 14%;
+    position: absolute;
+    right: 90px;
+    top: 270px; }
+
+@media screen and (max-width: 1300px) {
+  .rocket_red {
+    left: -20px;
+    top: 330px; }
+  .moon {
+    right: -20px;
+    top: 340px; } }
+
+@media screen and (max-width: 900px) {
+  .rocket_red {
+    left: -20px;
+    top: 390px; }
+  .moon {
+    right: -20px;
+    top: 400px; } }
+
+@media screen and (max-width: 768px) {
+  .concept__message-h1 {
+    letter-spacing: 0rem;
+    text-indent: 0rem; }
+  .concept__message-p {
+    letter-spacing: 0rem;
+    text-indent: 0rem; }
+  .rocket_red {
+    width: 16%; }
+  .moon {
+    width: 15%;
+    right: -5px; } }
+
+@media screen and (max-width: 600px) {
+  .moon {
+    top: 390px; } }
+
+@media screen and (max-width: 550px) {
+  .rocket_red {
+    top: 430px; }
+  .moon {
+    top: 430px; } }
+
+@media screen and (max-width: 480px) {
+  .rocket_red {
+    top: 450px; }
+  .moon {
+    top: 450px; } }
+
+@media screen and (max-width: 425px) {
+  .concept {
+    width: 90%; }
+  .concept__message-h1 {
+    font-size: 1.6rem; }
+  .concept__message-p {
+    font-size: 1.1rem; }
+  .concept {
+    padding-top: 30px; }
+  .rocket_red {
+    left: 0px;
+    top: 440px; }
+  .moon {
+    right: -10px;
+    top: 440px; } }
+
+@media screen and (max-width: 375px) {
+  .concept__message-h1 {
+    font-size: 1.3rem; }
+  .moon {
+    top: 440px; } }
