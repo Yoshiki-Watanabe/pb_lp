@@ -111,7 +111,11 @@
 		width: 100%;
 		margin-bottom: 100px;
 		padding: 20px 0 35px 0;
-		
+        
+    &.sectionContainer_borderBottom{
+        border-bottom: 1px solid #7f7f7f;
+    }
+
 	&.sectionContainer_margin_none{
 		margin: 0;	
 	}
