@@ -339,7 +339,7 @@ input, select {
     margin-bottom: 0; }
   .sectionContainer.sectionContainer_bg_business01 {
     min-height: 1000px;
-    background: url("../image/top_image.jpg") no-repeat fixed left top;
+    background: url("../image/top_image_dark.jpg") no-repeat fixed left top;
     background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -448,7 +448,7 @@ input, select {
 
 .customerVoice {
   width: 800px;
-  margin: 0 auto;
+  margin: 80px auto;
   height: 500px; }
   .customerVoice .customerVoice__imgContainer {
     width: 300px;
@@ -466,6 +466,7 @@ input, select {
   .customerVoice .customerVoice__titleText {
     font-size: 24px;
     font-weight: bold;
+    color: #1f1f1f;
     margin: 40px 10px;
     line-height: 35px;
     letter-spacing: 0.5px;
@@ -544,6 +545,49 @@ input, select {
     -ms-transition: 0.1s;
     -o-transition: 0.1s;
     transition: 0.1s; }
+
+.projectExampleBox {
+  width: 90%;
+  padding-bottom: 30px;
+  margin: 35px auto 0;
+  display: flex;
+  -webkit-align-items: flex-start;
+  /* Safari */
+  align-items: flex-start;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  /* Safari */
+  flex-direction: row; }
+  .projectExampleBox .projectExampleBox__box {
+    max-width: 400px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px 30px;
+    margin-bottom: 70px;
+    box-sizing: border-box;
+    text-align: center; }
+  .projectExampleBox .projectExampleBox__img {
+    display: inline-block;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px; }
+  .projectExampleBox .projectExampleBox__itemTitle {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px auto 5px;
+    letter-spacing: 2px; }
+  .projectExampleBox .projectExampleBox__text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px; }
 
 .stepBox {
   width: 90%;
