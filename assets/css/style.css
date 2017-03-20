@@ -330,8 +330,10 @@ input, select {
 .sectionContainer {
   min-height: 400px;
   width: 100%;
-  margin-bottom: 100px;
-  padding: 20px 0 35px 0; }
+  margin-bottom: 10px;
+  padding: 10px 0 0 0; }
+  .sectionContainer.sectionContainer_borderBottom {
+    border-bottom: 1px solid #7f7f7f; }
   .sectionContainer.sectionContainer_margin_none {
     margin: 0; }
   .sectionContainer.sectionContainer_height_small {
@@ -372,7 +374,7 @@ input, select {
     margin-bottom: 30px;
     line-height: 40px; }
   .sectionContainer .sectionContainer__title {
-    margin-top: 40px;
+    margin-top: 0px;
     font-size: 30px;
     text-align: center; }
   .sectionContainer .sectionContainer__title:after {
@@ -548,7 +550,7 @@ input, select {
 
 .projectExampleBox {
   width: 90%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin: 35px auto 0;
   display: flex;
   -webkit-align-items: flex-start;
@@ -646,7 +648,7 @@ input, select {
 
 .meritBox {
   width: 90%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin: 35px auto 0;
   display: flex;
   -webkit-align-items: flex-start;

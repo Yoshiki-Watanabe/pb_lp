@@ -109,8 +109,8 @@
 .sectionContainer{
 		min-height: 400px;
 		width: 100%;
-		margin-bottom: 100px;
-		padding: 20px 0 35px 0;
+		margin-bottom: 10px;
+		padding: 10px 0 0 0;
         
     &.sectionContainer_borderBottom{
         border-bottom: 1px solid #7f7f7f;
@@ -171,7 +171,7 @@
 	}
 
 	.sectionContainer__title{
-		margin-top: 40px;
+		margin-top: 0px;
 		font-size: 30px;
 		text-align: center;
 	}
@@ -385,7 +385,7 @@
 
 .projectExampleBox {
     width: 90%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin: 35px auto 0;
     display: flex;
     -webkit-align-items: flex-start;
@@ -502,7 +502,7 @@
 
 .meritBox{
         width: 90%;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         margin: 35px auto 0;
         display: flex;
         -webkit-align-items: flex-start; /* Safari */
